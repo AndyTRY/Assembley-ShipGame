@@ -1,18 +1,18 @@
 
 # Running the Assembly Game
 ### Step 1: Lauch MARS MIPS Simulator (with Java)
-Java is a repreqesuite for the following. You can you the provided jar file or search MARS MIPS Simulator online for the jar file. Run the file with
+Java is a prerequisite for the following. You can use the provided jar file or search "MARS MIPS Simulator" online for the jar file. Run the file with
  ```java
 java -jar <mars jar file>
 ```
-
+Once your in the program, follow the next steps.
 
 ### Step 2: Load the asm file
 - File -> Open -> (Select the asm file)
 
 ### Step 3: Setup Keyboard
 - Tools -> Keyboard and Display MMIO Simulator
-- Connect to MIPS
+- Connect to MIPS (Bottom left button)
 - Keep the window open
 
 ### Step 4: Setup Bitmap Display
@@ -30,5 +30,5 @@ java -jar <mars jar file>
 
 ### Step 6: Play the game!
 The game should be showing on the Bitmap display.
-Click on the keyboard input box and control your shup with the W, A, S, D keys.
-On Game Over, Press P to restart.
+Click on the keyboard input box and control your ship with W, A, S, D keys.
+On Game Over, press P to restart.
